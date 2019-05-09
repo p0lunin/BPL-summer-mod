@@ -75,5 +75,10 @@ label test:
     "И тут дверь распахивается - видимо, кто-то из них решил уйти из дома, но это последнее, о чем успел подумать Полунин перед тем, как погрузиться в темноту..."
     show blink
     scene bg black
+    $ backdrop = "days"
+    $ new_chapter(1, u"Мой мод. День первый.")
     hide blink
+    show unblink
+
+    
     return
