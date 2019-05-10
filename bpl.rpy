@@ -110,7 +110,7 @@ label test:
     scene bg ext_camp_entrance_day
     show sl surprise pioneer
     "Но похоже, пионерка была удивлена не меньше..."
-    sl "Здравствуйте... Я меня Славей зовут..."
+    sl "Здравствуйте... Меня Славей зовут..."
     sl "Н-но почему вас трое? Среди вас н-нет Семена?"
     "Мальчики переглянулись."
     pl "Брит, это тебя Семеном звать?"
@@ -126,8 +126,13 @@ label test:
     sl "Тут такое дело..."
     show mt surprise pioneer
     "Славя что-то прошептала Ольге Дмитриевне."
+    hide sl surprise pioneer at cleft
+    show sl shy pioneer at left
     mt "Но... Почему вас трое? Что за беспредел!"
+    hide mt surprise pioneer
+    show mt angry pioneer
     mt "Должен был приехать один!"
+    sl "Но их еще надо куда-то заселить..."
 
     
     
